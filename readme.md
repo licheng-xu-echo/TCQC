@@ -4,7 +4,7 @@
 
 # Algorithm
 
-Our project is almost based on [DIG](https://github.com/divelab/DIG) and [NeuralForceField](https://github.com/licheng-xu-echo/NeuralForceField).
+Our project is almost based on [DIG](https://github.com/divelab/DIG) and [NeuralForceField](https://github.com/learningmatter-mit/NeuralForceField).
 
 We utilized [DimeNet++](https://arxiv.org/abs/2011.14115) for energy fitting. The predicted forces were obtained by taking the negative derivative of the predicted energy with respect to the coordinates. Taking training efficiency into account, we did not incorporate the predictive error of forces into the model training during the preliminary stage. In the later stages of the contest, both force and energy prediction errors will be integrated into the training process.
 
