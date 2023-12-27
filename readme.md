@@ -1,6 +1,6 @@
 # TCQC
 
-**T**ian**C**hi **Q**uantum **C**hemistry (TCQC). This is the code repository for our participation in the [&#34;First World Scientific Intelligence Competition: Quantum Chemistry Track.&#34;](https://tianchi.aliyun.com/competition/entrance/532115) In this competition, after going through the preliminary round, semifinal, and final, our team "Qizhen Chemistry" (**启真化学**) achieved third place.
+**T**ian**C**hi **Q**uantum **C**hemistry (TCQC). This is the code repository for our participation in the [&#34;First World Scientific Intelligence Contest: Quantum Chemistry Track.&#34;](https://tianchi.aliyun.com/competition/entrance/532115) In this competition, after going through the preliminary round, semifinal, and final, our team "Qizhen Chemistry" (**启真化学**) achieved third place.
 
 # Algorithm
 
