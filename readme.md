@@ -48,13 +48,13 @@ python data.py --root_dir <path where training data is saved>
 To train the molecular energy prediction model, execute the following code:
 
 ```
-python energy_model.py --root_dir <path where training data is saved> --E_batch_size 256 --lr_decay_step 10 --train_energy_epoch 300
+python energy_model.py --root_dir <path where training data is saved> --E_batch_size 256 --lr_decay_step 10 --train_energy_epoch 300 --E_model_save_dir <path where energy model is saved>
 ```
 
-To enhance model performance, we trained five energy models, which are saved in 'final/energy_model_3', and subsequently applied a bagging approach to aggregate their predictive outputs.
+To enhance model performance, we trained five energy models, which are saved in 'final/energy_model_3', and subsequently applied a bagging approach to aggregate their predictive outputs. It should be noted that, in this contest, the test dataset is not available for direct download. Instead, access to the dataset is confined to the scope of the provided official Docker container.
 
 ```
-python bagging.py --root_dir <path where training data is saved> --E_model_dir ./energy_model --stage 1 
-python bagging.py --root_dir <path where training data is saved> --E_model_dir ./energy_model --stage 2 
+python bagging.py --root_dir <path where training data is saved> --E_model_dir  <path where energy model is saved> --stage 1 
+python bagging.py --root_dir <path where training data is saved> --E_model_dir  <path where energy model is saved> --stage 2 
 ```
 
