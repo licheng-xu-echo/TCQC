@@ -51,7 +51,7 @@ To train the molecular energy prediction model, execute the following code:
 python energy_model.py --root_dir <path where training data is saved> --E_batch_size 256 --lr_decay_step 10 --train_energy_epoch 300
 ```
 
-To enhance model performance, we trained three energy models, and subsequently applied a bagging approach to aggregate their predictive outputs.
+To enhance model performance, we trained five energy models, which are saved in 'final/energy_model_3', and subsequently applied a bagging approach to aggregate their predictive outputs.
 
 ```
 python bagging.py --root_dir <path where training data is saved> --E_model_dir ./energy_model --stage 1 
